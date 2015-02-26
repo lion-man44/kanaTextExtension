@@ -1,0 +1,26 @@
+{
+  "name": "kanaTextExtension",
+  "main": "kanaTextExtension.js",
+  "version": "0.0.4",
+  "homepage": "https://github.com/amanattou44/kanaTextExtension",
+  "authors": [
+    "mashimonator",
+    "lion_man44 <lion44man@gmail.com>"
+  ],
+  "description": "input system kana support",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "kana",
+    "forked from http://mashimonator.weblike.jp/library/2012/09/javascript-3-5.html"
+  ],
+  "license": "GNU General Public License",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
