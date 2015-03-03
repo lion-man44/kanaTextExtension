@@ -46,8 +46,7 @@ var kntxtext = {
     config : {
       idBaseStr : 'kntxtext_',
       kanaExtractionPattern : new RegExp('[^ 　ぁあ-んー]', 'g'),
-      kanaCompactingPattern : new RegExp('[ぁぃぅぇぉっゃゅょ]', 'g'),
-      alphabetExtractionPattern : new RegExp('[a-zA-Z]', 'g')
+      kanaCompactingPattern : new RegExp('[ぁぃぅぇぉっゃゅょ]', 'g')
     },
     flags : {
       convert : false,
@@ -62,8 +61,7 @@ var kntxtext = {
       baseKana : '',
       ignoreString : '',
       values : [],
-      input : '',
-      event : null
+      input : ''
     }
   },
   initialize : function() {
@@ -102,8 +100,7 @@ var kntxtext = {
     kntxtext.observe.prepare();
     kntxtext.observe.start();
   },
-  keydown : function(e) {
-    kntxtext.sys.storage.event = e;
+  keydown : function() {
     if ( kntxtext.sys.flags.convert ) {
       kntxtext.observe.prepare();
     }
@@ -176,9 +173,7 @@ var kntxtext = {
             default:
               kntxtext.sys.storage.input = input;
               if ( !kntxtext.sys.flags.convert ) {
-                var values = '';
-                values = input.replace(kntxtext.sys.config.kanaExtractionPattern,'').split('');
-                if (kntxtext.sys.storage.event !== null && kntxtext.sys.storage.event.which !== 229 && kntxtext.sys.config.alphabetExtractionPattern.test(input)) values = input.split('');
+                var values = input.replace(kntxtext.sys.config.kanaExtractionPattern,'').split('');
                 kntxtext.check.convert(values);
                 kntxtext.setKanaStr(values);
               }
