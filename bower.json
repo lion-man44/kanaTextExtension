@@ -1,7 +1,7 @@
 {
   "name": "kanaTextExtension",
   "main": "kanaTextExtension.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/amanattou44/kanaTextExtension",
   "authors": [
     "mashimonator",
