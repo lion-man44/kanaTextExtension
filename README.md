@@ -6,6 +6,11 @@ forked from http://mashimonator.weblike.jp/library/2012/09/javascript-3-5.html
 bower install kana-text-extension
 ```
 
+```sh
+npm install --save kana-text-extension browserify
+# Use browserify. Please compiled with browserify
+```
+
 # Usage
 ```js
 kntxtext.target = [
