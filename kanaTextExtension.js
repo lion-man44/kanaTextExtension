@@ -348,3 +348,4 @@ var kntxtext = {
   }
 }
 kntxtext.addEvent( window, 'load', kntxtext.initialize );
+window.kntxtext = kntxtext;

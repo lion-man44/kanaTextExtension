@@ -1,0 +1,22 @@
+{
+  "name": "kana-text-extension",
+  "version": "1.0.0",
+  "description": "forked from http://mashimonator.weblike.jp/library/2012/09/javascript-3-5.html",
+  "main": "kanaTextExtension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lion-man44/kanaTextExtension.git"
+  },
+  "keywords": [
+    "kana"
+  ],
+  "author": "mashimonator",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lion-man44/kanaTextExtension/issues"
+  },
+  "homepage": "https://github.com/lion-man44/kanaTextExtension#readme"
+}
